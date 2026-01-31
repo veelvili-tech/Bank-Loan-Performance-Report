@@ -5,22 +5,35 @@ The company is a mid-sized commercial bank operating in the retail and small-bus
 
 As a Data Analyst working within the Risk & Analytics team, my role is to analyze historical loan data to support better lending decisions, monitor portfolio performance, and identify potential risk areas. The bank operates in a highly regulated environment, making accurate reporting and risk assessment critical.
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+Key Business Metrics
+* Total Loan Applications
+* Loan Approval Rate
+* Total Funded Amount
+* Interest Income
+* Default Rate
+* Non-Performing Loans (NPL)
+* Average Interest Rate
+* Debt-to-Income (DTI) Ratio 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+# Key Analysis Areas
+Insights and recommendations are provided on the following key areas:
 
-Targed SQL queries regarding various business questions can be found here [link].
+* **Category 1:** Loan Portfolio Performance
+* **Category 2:** Credit Risk & Default Analysis
+* **Category 3:** Customer Demographics & Segmentation
+* **Category 4:** Loan Purpose & Product Performance
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
-
+# Resources
+* SQL Data Cleaning & Inspection Queries:
+[GitHub link – SQL_Cleaning.sql]
+* Targeted SQL Queries for Business Questions:
+[GitHub link – SQL_Analysis.sql]
+* Interactive Power BI Dashboard:
+[Power BI Service / GitHub Screenshot link]
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
+The bank’s main database consists of 4 core tables with approximately XXX,XXX total records.
 - **Table 2:**
 - **Table 3:**
 - **Table 4:**
@@ -28,28 +41,29 @@ The companies main database structure as seen below consists of four tables: tab
 
 [Entity Relationship Diagram here]
 
-
-
 # Executive Summary
 
 ### Overview of Findings
+From a portfolio and risk management perspective, three key insights stand out:
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+* Loan defaults are highly concentrated among borrowers with high DTI ratios and low credit scores.
+* Certain loan purposes (debt consolidation and small business loans) show higher default risk compared to others.
+* Stable income and longer employment tenure significantly improve repayment performance.
+* These insights can help the bank improve credit screening, pricing strategies, and portfolio risk controls.
 
 [Visualization, including a graph of overall trends or snapshot of a dashboard]
 
 
-
 # Insights Deep Dive
-### Category 1:
+### Category 1: Loan Portfolio Performance
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** Total funded loan amount has steadily increased year-over-year, indicating growing demand for credit products.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** Personal loans account for the highest number of applications but generate lower average interest income compared to business loans.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.** Loans with longer tenures (60 months+) show higher cumulative interest income but also higher delinquency rates.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 4.** Overall approval rate remains stable, suggesting consistent underwriting policies.
 
 [Visualization specific to category 1]
 
