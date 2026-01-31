@@ -57,79 +57,68 @@ From a portfolio and risk management perspective, three key insights stand out:
 # Insights Deep Dive
 ### Category 1: Loan Portfolio Performance
 
-* **Main insight 1.** Total funded loan amount has steadily increased year-over-year, indicating growing demand for credit products.
+*  Total funded loan amount has steadily increased year-over-year, indicating growing demand for credit products.
   
-* **Main insight 2.** Personal loans account for the highest number of applications but generate lower average interest income compared to business loans.
+*  Personal loans account for the highest number of applications but generate lower average interest income compared to business loans.
   
-* **Main insight 3.** Loans with longer tenures (60 months+) show higher cumulative interest income but also higher delinquency rates.
-  
-* **Main insight 4.** Overall approval rate remains stable, suggesting consistent underwriting policies.
+* Loans with longer tenures (60 months+) show higher cumulative interest income but also higher delinquency rates.
+
+* Overall approval rate remains stable, suggesting consistent underwriting policies.
 
 [Visualization specific to category 1]
 
 
-### Category 2:
+### Category 2: Credit Risk & Default Analysis
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Borrowers with credit scores below 600 contribute disproportionately to total defaults.
+* Default rates increase sharply when DTI exceeds 40%.
+* Loans with higher interest rates (>15%) show elevated default probability, indicating risk-based pricing impact.
+* Early-stage delinquencies (30–60 days overdue) are strong predictors of eventual default.
 
 [Visualization specific to category 2]
 
 
 ### Category 3:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Customers aged 30–45 represent the largest and most profitable borrower segment.
+* Salaried employees demonstrate significantly better repayment behavior than self-employed customers.
+* Higher income bands correlate with lower default rates and higher loan approval ratios.
+* Employment stability (5+ years with same employer) reduces default likelihood.
 
 [Visualization specific to category 3]
 
 
-### Category 4:
+### Category 4: Loan Purpose & Product Performance
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* Debt consolidation loans show the highest default rates despite moderate interest pricing.
+* Home improvement and education loans exhibit strong repayment performance.
+* Small business loans generate higher interest income but carry elevated risk.
+* Auto loans demonstrate balanced risk-return characteristics.
 
 [Visualization specific to category 4]
 
-
-
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the analysis, the Risk & Credit Policy team should consider the following actions:
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* High DTI borrowers show increased defaults → Introduce stricter DTI thresholds or require additional documentation.
+* Low credit score segments drive risk → Implement tiered pricing or enhanced credit checks.
+* Debt consolidation loans underperform → Reassess eligibility criteria and repayment terms.
+* Stable employment improves repayment → Incorporate employment tenure as a stronger approval factor.
+* Early delinquency predicts default → Deploy proactive collection and early warning systems.
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-
-
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Missing income values were excluded from DTI-based analysis.
+* Credit scores were assumed to be accurate and up-to-date.
+* Loan status was treated as final, with no restructuring considered.
+* External macroeconomic factors (inflation, interest rate changes) were not included.
+
+# Tools & Technologies
+* SQL: Data cleaning, joins, aggregations, risk metrics
+
+* Power BI: Interactive dashboards, DAX calculations
+
+* Excel: Initial data validation
