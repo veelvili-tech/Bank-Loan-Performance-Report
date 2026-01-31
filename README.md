@@ -1,5 +1,6 @@
 # Project Background
 **Company Overview**
+
 The company is a mid-sized commercial bank operating in the retail and small-business lending space. The bank provides financial products such as personal loans, home loans, auto loans, and small business loans. Its primary business model is interest-based lending, where revenue is generated from loan interest, processing fees, and penalty charges on overdue payments.
 
 As a Data Analyst working within the Risk & Analytics team, my role is to analyze historical loan data to support better lending decisions, monitor portfolio performance, and identify potential risk areas. The bank operates in a highly regulated environment, making accurate reporting and risk assessment critical.
