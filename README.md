@@ -25,7 +25,9 @@ Insights and recommendations are provided on the following key areas:
 
 # Resources
 * SQL Data Cleaning & Inspection Queries:
+
 [[GitHub link – SQL_Bank_Loan_Overview.sql](https://github.com/veelvili-tech/Bank-Loan-Performance-Report/blob/main/BANK_LOAN_OVERVIEW.sql)]
+
 [[Github link - SQL_Bank_Loan_Summary](https://github.com/veelvili-tech/Bank-Loan-Performance-Report/blob/main/BANK_LOAN_SUMMARY.sql)]
 
 
