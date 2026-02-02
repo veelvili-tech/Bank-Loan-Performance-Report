@@ -25,11 +25,13 @@ Insights and recommendations are provided on the following key areas:
 
 # Resources
 * SQL Data Cleaning & Inspection Queries:
-[GitHub link – SQL_Cleaning.sql]
-* Targeted SQL Queries for Business Questions:
-[GitHub link – SQL_Analysis.sql]
+[[GitHub link – SQL_Bank_Loan_Overview.sql](https://github.com/veelvili-tech/Bank-Loan-Performance-Report/blob/main/BANK_LOAN_OVERVIEW.sql)]
+[[Github link - SQL_Bank_Loan_Summary](https://github.com/veelvili-tech/Bank-Loan-Performance-Report/blob/main/BANK_LOAN_SUMMARY.sql)]
+
+
 * Interactive Power BI Dashboard:
-[Power BI Service / GitHub Screenshot link]
+<img width="730" height="434" alt="image" src="https://github.com/user-attachments/assets/30ad9f09-4ab7-466c-8f5b-00ebf2954f9f" />
+
 
 # Data Structure & Initial Checks
 
