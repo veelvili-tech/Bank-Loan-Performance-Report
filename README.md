@@ -41,7 +41,7 @@ Insights and recommendations are provided on the following key areas:
 
 # Data Structure & Initial Checks
 
-The bank’s main database consists of 4 core tables with approximately XXX,XXX total records.
+The bank’s main database consists of 1 core tables with approximately 38,576 total records.
 
 <img width="523" height="407" alt="image" src="https://github.com/user-attachments/assets/1698423c-c43e-4655-8805-581e69d2575c" />
 
