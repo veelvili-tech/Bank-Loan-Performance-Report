@@ -42,12 +42,9 @@ Insights and recommendations are provided on the following key areas:
 # Data Structure & Initial Checks
 
 The bank’s main database consists of 4 core tables with approximately XXX,XXX total records.
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
 
-[Entity Relationship Diagram here]
+<img width="523" height="407" alt="image" src="https://github.com/user-attachments/assets/1698423c-c43e-4655-8805-581e69d2575c" />
+
 
 # Executive Summary
 
@@ -59,22 +56,13 @@ From a portfolio and risk management perspective, three key insights stand out:
 * Stable income and longer employment tenure significantly improve repayment performance.
 * These insights can help the bank improve credit screening, pricing strategies, and portfolio risk controls.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
-
-
 # Insights Deep Dive
 ### Category 1: Loan Portfolio Performance
 
 *  Total funded loan amount has steadily increased year-over-year, indicating growing demand for credit products.
-  
 *  Personal loans account for the highest number of applications but generate lower average interest income compared to business loans.
-  
 * Loans with longer tenures (60 months+) show higher cumulative interest income but also higher delinquency rates.
-
 * Overall approval rate remains stable, suggesting consistent underwriting policies.
-
-[Visualization specific to category 1]
-
 
 ### Category 2: Credit Risk & Default Analysis
 
@@ -83,9 +71,6 @@ From a portfolio and risk management perspective, three key insights stand out:
 * Loans with higher interest rates (>15%) show elevated default probability, indicating risk-based pricing impact.
 * Early-stage delinquencies (30–60 days overdue) are strong predictors of eventual default.
 
-[Visualization specific to category 2]
-
-
 ### Category 3:
 
 * Customers aged 30–45 represent the largest and most profitable borrower segment.
@@ -93,17 +78,12 @@ From a portfolio and risk management perspective, three key insights stand out:
 * Higher income bands correlate with lower default rates and higher loan approval ratios.
 * Employment stability (5+ years with same employer) reduces default likelihood.
 
-[Visualization specific to category 3]
-
-
 ### Category 4: Loan Purpose & Product Performance
 
 * Debt consolidation loans show the highest default rates despite moderate interest pricing.
 * Home improvement and education loans exhibit strong repayment performance.
 * Small business loans generate higher interest income but carry elevated risk.
 * Auto loans demonstrate balanced risk-return characteristics.
-
-[Visualization specific to category 4]
 
 # Recommendations:
 
@@ -126,7 +106,5 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 
 # Tools & Technologies
 * SQL: Data cleaning, joins, aggregations, risk metrics
-
 * Power BI: Interactive dashboards, DAX calculations
-
 * Excel: Initial data validation
